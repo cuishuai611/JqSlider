@@ -1,5 +1,5 @@
 /**
- * Swiper 1.0
+ * Slider 1.0
  *
  * 焦点图切换jQuery扩展
  *
@@ -14,7 +14,7 @@
     $.fn.extend({
     	 Silder : function(options){
     	 	  var defaults = {
-    	 	  	  autoPlay : true,                                     //是否自动播放
+    	 	  	      autoPlay : true,                                 //是否自动播放
                   Speed : 3000,                                    //自动执行间隔时间
                   timed : 300,                                     //动画执行时间
                   moveType : 'scroll',                             //切换方式默认是滚动 {scroll | opacity}
@@ -171,9 +171,9 @@ $(document).ready(function(){
     $('#box').Silder({
     	container : '#box',
     	silderbox : '.boxul',
-    	silderobj  : '.boxul li',
+    	silderobj : '.boxul li',
       Current : 'cur',
-      // moveType: 'opacity',
+      moveType: 'opacity',
       aBtnLeft: 'apre',
       aBtnRigh: 'anex'
     });
