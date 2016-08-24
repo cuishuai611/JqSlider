@@ -1,7 +1,10 @@
 #JqSlider.js
 焦点图切换jQuery扩展
+
 在线演示地址：Http://linshi.mbwxzx.com/slider/
+
 author: Mr Cui
+
 #默认配置
 var defaults = {
 
